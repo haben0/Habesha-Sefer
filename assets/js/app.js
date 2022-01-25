@@ -97,6 +97,4 @@
 	  })
 	
 
-
-
 })(window.jQuery);
