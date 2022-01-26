@@ -877,7 +877,7 @@ upcoming events
 */
 
 section.upcoming-events {
-    background-image: url(../images/greyback\ ground1.png);
+    background-image: url(../images/greybackground.png);
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -1044,7 +1044,7 @@ courses
 */
 
 section.previous-events {
-    background-image: url(../images/greyback\ ground1.png);
+    background-image: url(../images/greybackground.png);
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -1204,7 +1204,7 @@ contact us
 */
 
 section.contact-us {
-  background-image: url(../images/greyback\ ground1.png);
+  background-image: url(../images/greybackground.png);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
