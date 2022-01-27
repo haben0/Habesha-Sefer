@@ -1208,10 +1208,9 @@ section.quote .item h3 {
   text-transform: uppercase;
   font-size: 24px;
   font-weight: 700;
-  margin-bottom: 20px;
 }
 
-section.quote .item h3,h6 {
+section.quote .item h3, section.quote .item h6 {
   color: #fff;
   margin-bottom: 20px;
   text-align: center;
@@ -1590,4 +1589,126 @@ section.events-page .pagination ul li a:hover {
 	.templatemo-item-col {
 		width: 100%;
 	}
+}
+
+/* 
+---------------------------------------------
+responsive
+--------------------------------------------- 
+*/
+
+@media (max-width: 1300px) {
+  .services .owl-nav .owl-next{
+    right: -30px;
+  }
+  .services .owl-nav .owl-prev{
+    left: -25px;
+  }
+  .previous-events .owl-nav .owl-next{
+    right: -30px;
+  }
+  .previous-events .owl-nav .owl-prev{
+    left: -25px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .services .owl-nav .owl-next{
+    right: -70px;
+  }
+  .services .owl-nav .owl-prev{
+    left: -65px;
+  }
+  .previous-events .owl-nav .owl-next{
+    right: -70px;
+  }
+  .previous-events .owl-nav .owl-prev{
+    left: -65px;
+  }
+}
+
+@media (max-width: 1085px) {
+  .services .owl-nav .owl-next{
+    right: -30px;
+  }
+  .services .owl-nav .owl-prev{
+    left: -25px;
+  }
+  .previous-events .owl-nav .owl-next{
+    right: -30px;
+  }
+  .previous-events .owl-nav .owl-prev{
+    left: -25px;
+  }
+}
+
+@media (max-width: 1005px) {
+  .services .owl-nav .owl-next{
+    display: none;
+  }
+  .services .owl-nav .owl-prev{
+    display: none;
+  }
+  .previous-events .owl-nav .owl-next{
+    display: none;
+  }
+  .previous-events .owl-nav .owl-prev{
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .main-banner .caption {
+    top: 60%;
+  }
+
+  .main-banner .caption h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+
+  .main-banner .caption .main-button-red {
+    margin-top: 15px;
+  }
+
+  .services {
+    margin-top: 60px;
+  }
+
+  section.upcoming-events {
+    padding-top: 400px;
+  }
+
+  section.upcoming-events .categories {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+  
+
+  section.contact-us #contact {
+    margin-bottom: 30px;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  .sub-header .left-content p {
+    display: none;
+  }
+
+  .sub-header .right-icons {
+    text-align: center;
+  }
+
+  .main-nav .nav .sub-menu {
+    display: none;
+  }
+
+  .header-area .main-nav .nav li ul.sub-menu li a {
+    color: #1f272b;
+  }
+
 }
