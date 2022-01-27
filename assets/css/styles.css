@@ -1185,10 +1185,10 @@ section.previous-events {
   }
   /*
 ---------------------------------------------
-Art Wall
+quote
 ---------------------------------------------
 */
-section.art-wall {
+section.quote {
   background-image: url(../images/aboutUs1.jpg);
   background-position: center center;
   background-attachment: fixed;
@@ -1197,6 +1197,25 @@ section.art-wall {
   padding: 140px 0px;
 }
 
+section.quote .item {
+  background-color: rgba(250,250,250,0.15);
+  padding: 40px;
+  margin-bottom: 30px;
+}
+
+section.quote .item h3 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+section.quote .item h3,h6 {
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+}
 /* 
 ---------------------------------------------
 contact us
