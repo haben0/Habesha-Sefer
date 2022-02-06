@@ -1391,8 +1391,14 @@ section.events-page {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 140px;
-  padding-bottom: 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+section.events-page .event-details{
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 40px;
 }
 
 section.events-page .filters {
@@ -1712,3 +1718,96 @@ responsive
   }
 
 }
+
+
+/*
+ *  Tornument Styles
+*/
+#tournament{
+  display:flex;
+  flex-direction:row;
+}
+.round{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  width:200px;
+  list-style:none;
+  padding:0;
+}
+  .round .spacer{ flex-grow:1; }
+  .round .spacer:first-child,
+  .round .spacer:last-child{ flex-grow:.5; }
+
+  .round .game-spacer{
+    flex-grow:1;
+  }
+
+li.game{
+  padding-left:20px;
+}
+
+  li.game.winner{
+    font-weight:bold;
+  }
+  li.game span{
+    float:right;
+    margin-right:5px;
+  }
+
+  li.game-top{ border-bottom:1px solid #aaa; }
+
+  li.game-spacer{ 
+    border-right:1px solid #aaa;
+    min-height:40px;
+  }
+
+  li.game-bottom{ 
+    border-top:1px solid #aaa;
+  }
+
+  /* Photo Gallery */
+
+  .photo-gallery {
+    color:#313437;
+    background-color:#fff;
+  }
+  
+  .photo-gallery p {
+    color:#7d8285;
+  }
+  
+  .photo-gallery h2 {
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:inherit;
+  }
+  
+  @media (max-width:767px) {
+    .photo-gallery h2 {
+      margin-bottom:25px;
+      padding-top:25px;
+      font-size:24px;
+    }
+  }
+  
+  .photo-gallery .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto 40px;
+  }
+  
+  .photo-gallery .intro p {
+    margin-bottom:0;
+  }
+  
+  .photo-gallery .photos {
+    padding-bottom:20px;
+  }
+  
+  .photo-gallery .item {
+    padding-bottom:30px;
+  }
+  
+  
